@@ -8,12 +8,12 @@ Saksılarımızın topraklarının nemli nemsiz olup olmadığını bize söyley
 ve bunları ayrıca hem LCD hem de led'ler ile bize bildiriyor
 
 - Arkadaşlar Alev Sensörünün D0(Dijital 0)pinini Arduinoda Dijital 11 Pine Bağlıyoruz
-Gaz Sensörünün A0(Analog 0)pinini Arduinoda A2 Pinine Bağlıyoruz
-Toprak Ve Nem Sensörünün A0(Analog 0)pinini Arduinoda A1 Pinine Bağlıyoruz
-Yağmur Sensörünün A0(Analog 0)pinini Arduinoda A0 Bağlıyoruz
-DHT11 Sensörünün Sinyal Pinini Arduinoda D2 Pinine Bağlıyoruz
-LCD Ekranın SCL Pinini Arduinoda A5 Pinine Bağlıyoruz
-LCD Ekranın SDA Pinini Arduinoda A4 Pinine Bağlıyoruz
+- Gaz Sensörünün A0(Analog 0)pinini Arduinoda A2 Pinine Bağlıyoruz
+- Toprak Ve Nem Sensörünün A0(Analog 0)pinini Arduinoda A1 Pinine Bağlıyoruz
+- Yağmur Sensörünün A0(Analog 0)pinini Arduinoda A0 Bağlıyoruz
+- DHT11 Sensörünün Sinyal Pinini Arduinoda D2 Pinine Bağlıyoruz
+- LCD Ekranın SCL Pinini Arduinoda A5 Pinine Bağlıyoruz
+- LCD Ekranın SDA Pinini Arduinoda A4 Pinine Bağlıyoruz
 
 - Bütün GND'ler Ve VCC'ler Ortaktır
 - VCC'ler +5V Bağlanılacak

@@ -21,20 +21,20 @@ int nemdeger = 0;
 // şuanda boşta olan pin sayısı Dijital: D0 Analog: A3
 
 //Toprak Ve Nem
-int Tkirmiziled = 3;
-int Tyesilled = 4;
+int Tkirmiziled = 11;
+int Tyesilled = 7;
 int Tsariled = 1;
 
 // Alev Ve Gaz Sensorlerinin Pinler
 int Gkirmiziled1 = 10;
 int Gyesilled1 = 9;
-int Gbuzzer1 = 7; 
+int Gbuzzer1 = 4; 
 int gazpin = A2;
 
 int Akirmiziled2 = 13;
 int Ayesilled2 = 12;
 int Abuzzer2 = 8;
-int alevpin = 11;
+int alevpin = 3;
 
 //toprak ve nem sensor
 int topsensor = A1;

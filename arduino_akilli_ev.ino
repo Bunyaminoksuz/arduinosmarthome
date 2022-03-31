@@ -1,6 +1,6 @@
 /*
  * Bu Projeyi Geliştirebilirsiniz
- * Yapımcı TulparHan
+ * Yapımcı Bunyamin Oksuz
  * Kodu Çalıp Kendiniz Yapmışsınız Gibi Paylaşmayınız
  * Github Sayfasında Hangi Pinin Hangi Sensöre Veya Lede Bağlı Olduğu Yazıyor.
  * Kullanan arkadaşlara Teşekkürler.

@@ -60,6 +60,33 @@ ve bunları ayrıca hem LCD hem de led'ler ile bize bildiriyor
 - Boş Pinler;
 - Analog 3 pin ve Dijital 0 Pinleri Boştur
 
+## AD8232 ECG Sensor Integration
+
+Bu projeye AD8232 ECG sensör modülü entegrasyonu eklenmiştir. ECG (elektrokardiyogram) verilerini gerçek zamanlı olarak izlemek için:
+
+### ECG Sensör Pin Bağlantıları:
+- AD8232 OUTPUT → Arduino A3 (analog giriş)
+- AD8232 LO- → Arduino D2 (elektrot bağlantı kontrolü)  
+- AD8232 LO+ → Arduino D3 (elektrot bağlantı kontrolü)
+- AD8232 3.3V → Arduino 3.3V
+- AD8232 GND → Arduino GND
+
+### Kullanım:
+1. `ecg_ad8232_monitor.ino` dosyasını Arduino'ya yükleyin
+2. Seri monitörü 115200 baud hızında açın
+3. ECG elektrotlarını doğru şekilde yerleştirin
+4. Canlı ECG verilerini seri monitörden takip edin
+
+### Özellikler:
+- Gerçek zamanlı ECG izleme
+- Elektrot bağlantı kontrolü
+- Otomatik kalibrasyon
+- Hata durumu yönetimi
+- Görsel ECG dalga formu gösterimi
+
+**Detaylı bilgi için:** `AD8232_ECG_DOCUMENTATION.md` dosyasına bakınız.
+
+**⚠️ UYARI:** Bu sistem sadece eğitim amaçlıdır, tıbbi kullanım için değildir.
 
 ## Katkı
 
